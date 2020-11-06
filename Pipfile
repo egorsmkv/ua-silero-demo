@@ -1,0 +1,10 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+torch = "==1.7.0"
+torchaudio = "==0.7.0"
+SoundFile = "==0.10.3.post1"
+omegaconf = "==2.0.4"
