@@ -18,11 +18,3 @@ Run the demos:
 python test_official_demo.py
 python own_recodings_demo.py
 ```
-
-### Other
-
-#### Convert a file to the PCM wav file 
-
-```
-ffmpeg -i input.mp3 -acodec pcm_s16le -ac 1 -ar 16000 output.wav
-```
