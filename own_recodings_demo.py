@@ -3,7 +3,6 @@ import warnings
 warnings.simplefilter('ignore')
 
 import torch
-from os.path import dirname
 from utils import init_jit_model, read_batch, prepare_model_input
 
 
