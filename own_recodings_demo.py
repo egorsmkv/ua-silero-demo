@@ -10,13 +10,13 @@ from utils import init_jit_model, read_batch, prepare_model_input
 def run():
     device = torch.device('cpu')
 
-    jit_model = dirname(__file__) + '/model/ua_v1_jit.model'
+    jit_model = './model/ua_v3_jit.model'
     model, decoder = init_jit_model(jit_model, device=device)
 
     test_files = [
-        dirname(__file__) + '/recordings/my/1.wav',
-        dirname(__file__) + '/recordings/my/2.wav',
-        dirname(__file__) + '/recordings/my/3.wav',
+        './recordings/my/1.wav',
+        './recordings/my/2.wav',
+        './recordings/my/3.wav',
     ]
 
     model_input = prepare_model_input(read_batch(test_files), device=device)

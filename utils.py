@@ -1,5 +1,4 @@
 import torch
-import tempfile
 import warnings
 import torchaudio
 from typing import List
