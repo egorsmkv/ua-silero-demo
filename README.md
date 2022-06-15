@@ -3,6 +3,15 @@
 This is a repository with demonstration code that uses [the Silero Model for Ukrainian](https://github.com/snakers4/silero-models) 
 in the task of Speech-to-Text recognition.
 
+Quality:
+
+```text
+Common Voice 7 test set with 4300+ samples:
+
+WER: 0.2318 (id est - quality is 76.82%)
+CER: 0.0624
+```
+
 ### How to run
 
 #### Linux
